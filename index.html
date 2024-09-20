@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="webstyle.css">
+    <style>
+
+        *, html, body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d7d0d1;
+        }
+        #nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        legend a  {
+            padding: 10px;
+        }
+        header {
+            background: #79B22F;
+            color: #f5e1e1;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: none;
+            cursor: pointer;
+        }
+        .box1 {
+            border: 1px solid rgb(255, 255, 255);
+            box-shadow: 0px 4px 8px darkgray;
+            width: 250px;
+            box-sizing: border-box;
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            border: 1px solid blue;
+            border-radius: 10px;
+        }
+        .box2 {
+            background-color: rgb(33, 93, 206);
+            color: aliceblue;
+            font-size: 15px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+        }
+        .box2 ul {
+            list-style-type: none;
+        }
+        .box3, a {
+            padding-left: 5px;
+            text-decoration: none;
+            text-align: left;
+            margin-top: 0;
+        }
+        .w100pc {
+            width: 100%;
+        }
+        a:hover {
+            color: #e01c23;
+        }
+        .col {
+            display: flex;
+            flex-direction: column;
+        }
+        .row {
+            display: flex;
+        }
+        .container-block1 {
+            flex: 1 1;
+        }
+        .container-block2 {
+            flex: 2 1;
+        }
+        .container-block3 {
+            flex: 1 1 ;
+        }
+        .center-x {
+            align-items: center;
+        }
+        input:focus-visible {
+            outline: none;
+        }
+        .fix-ul {
+            list-style-type: none;
+            text-align: left;
+        }
+        .fix-ul li {
+            padding: 5px;
+            margin: 5px;
+        }
+        .fix-ul li:hover {
+            background-color: rgba(0, 135, 238, 0.855);
+        }
+        .fix-ul li:hover a {
+            color: white;
+        }
+        .form-register {
+            border: 1px solid blue; 
+        }
+        .ctn-input {
+            margin: 20px;
+        }
+        .ctn-input input {
+            padding: 8px 16px;
+        }
+        .btn-submit button{
+            padding: 8px 16px;
+            background-color: #1E6AB5;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .btn-submit button:nth-child(2) {
+            background-color: rgb(177, 0, 0);
+
+        }
+        .best-seller-product li {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .best-seller-product li:hover p{
+            color: white;
+        }
+        .best-seller-product li p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="nav" class="container">
+            <legend align="left">
+                <a href="trang_chu.html">TRANG CHỦ</a>
+                <a href="gioi_thieu.html">GIỚI THIỆU</a>
+                <a href="lien_he.html">LIÊN HỆ</a>
+            </legend>
+            <legend align="right">
+                <input style="
+                    padding: 8px 16px;
+                    border: none;
+                    " type="text" placeholder="Hãy nhập sách cần tìm..." ><button style="
+                    padding:  8px 16px;
+                    border: none;
+                    ">Tìm kiếm</button></input>
+            </legend>
+        </div>
+    </header>
+
+    <main class="row">
+        <div class="container-block1 col center-x">
+
+            <div class="box1">
+                <p class="box2">SÁCH THEO CHỦ ĐỀ</p>
+                    
+                    <ul class="fix-ul">
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Ngoại ngữ</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Công nghệ thông tin</a></li>
+                        <li><a href="https://pin.it/3xMl7hNde" target="_blank">Luật</a></li>
+                        <li><a href="https://pin.it/6M695Iwya" target="_blank">Văn học</a></li>
+                        <li><a href="https://pin.it/QrJcSHOkX" target="_blank">Khoa học kỹ thuật</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Nông nghiệp</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Lịch sử địa lý</a></li>
+                        <li><a href="https://pin.it/3xMl7hNde" target="_blank">Kinh tế</a></li>
+                        <li><a href="https://pin.it/6M695Iwya" target="_blank">Nghệ thuật sống</a></li>
+                    </ul>
+            </div>
+    
+            <div class="box1">
+                <p class="box2">SÁCH THEO NHÀ XUẤT BẢN</p>
+                <p class="box3">
+                    <ul class="fix-ul">
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Nhà xuất bản trẻ</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">NXB Thống kê</a></li>
+                        <li><a href="https://pin.it/3xMl7hNde" target="_blank">Kim Đồng</a></li>
+                        <li><a href="https://pin.it/6M695Iwya" target="_blank">Đại học quốc gia</a></li>
+                        <li><a href="https://pin.it/QrJcSHOkX" target="_blank">Văn hóa nghệ thuật</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Văn hóa</a></li>
+                        <li><a href="https://pin.it/4OSYfSKaq" target="_blank">Lao động - Xã hội</a></li>
+                        <li><a href="https://pin.it/3xMl7hNde" target="_blank">Khoa học & Kỹ thuật</a></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-block2 ">
+
+            <table class="w100pc form-register" width="500" height="200" border="2" cellpadding="5" align="center">
+                <tr>
+                    <th colspan="2" align="center"><h1 style="
+                            background-color: #215DCE;
+                            color: white;
+                            padding: 10px;
+                            border: none;
+                        ">ĐĂNG KÝ THÀNH VIÊN</h1></th>
+                </tr>
+                <form method="get">
+                    <tr style="border: none;">
+                        <th style="
+                                padding: 20px; background-color: #C8E5F3;
+                                border: none;">
+                            <fieldset style="padding: 20px; border: 1px solid blue;" align="left">
+                                <legend style="    color: blue;">Thông tin cá nhân</legend>
+                                <div class="ctn-input">
+                                    <label for="">Họ và tên:</label>
+                                    <input type="text" size="30" name="ten"><br>
+                                </div>
+                                <div class="ctn-input">
+                                    Ngày sinh: <select>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                                            <option value="13">13</option>
+                                                            <option value="14">14</option>
+                                                            <option value="15">15</option>
+                                                            <option value="16">16</option>
+                                                            <option value="17">17</option>
+                                                            <option value="18">18</option>
+                                                            <option value="19">19</option>
+                                                            <option value="20">20</option>
+                                                            <option value="21">21</option>
+                                                            <option value="22">22</option>
+                                                            <option value="23">23</option>
+                                                            <option value="24">24</option>
+                                                            <option value="25">25</option>
+                                                            <option value="26">26</option>
+                                                            <option value="27">27</option>
+                                                            <option value="28">28</option>
+                                                            <option value="29">29</option>
+                                                            <option value="30">30</option>
+                                                            <option value="31">31</option>
+                                                    </select> 
+                                                    Tháng <select>
+                                                        <option value="01">01</option>
+                                                        <option value="02">02</option>
+                                                        <option value="03">03</option>
+                                                        <option value="04">04</option>
+                                                        <option value="05">05</option>
+                                                        <option value="06">06</option>
+                                                        <option value="07">07</option>
+                                                        <option value="08">08</option>
+                                                        <option value="09">09</option>
+                                                        <option value="10">10</option>
+                                                        <option value="11">11</option>
+                                                        <option value="12">12</option>
+                                                    </select> 
+                                                    Năm <input type="text" size="2" name="năm">   
+                                <br>                       
+                                    <label for="">Giới tính:</label> 
+                                    <input type="radio" name="subject" value="nam"> Nam
+                                    <input type="radio" name="subject" value="nu"> Nữ<br>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="">Địa chỉ:</label>
+                                    <input type="text" size="25" name="diachi"><br>
+
+                                </div> 
+
+                                <div class="ctn-input">
+                                    <label for="">Điện thoại:</label>
+                                    <input type="text" size="25" name="dienthoai"><br>
+
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="">Email:</label>
+                                    <input type="text" size="25" name="mail">
+                                </div>
+                            </fieldset>
+                        </th>
+                    </tr>
+                    <tr style="border: none;">
+                        <th style="
+                                padding: 20px;
+                                background-color: #C8E5F3;
+                                border: none;
+                            ">
+                            <fieldset style="padding: 20px; border: 1px solid blue;  
+                                
+                            " align="left">
+                                <legend style="    color: blue;">Thông tin đăng nhập</legend>
+                                <div class="ctn-input">
+                                    <label for="">Tên đăng nhập: </label>
+                                    <input type="text" size="30" name="ten"><br>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="">Mật khẩu:</label>
+                                    <input type="password" size="30" name="mk"><br>
+                                </div>
+                                <div class="ctn-input">
+                                    <label for="">Nhập lại mật khẩu:</label>
+                                    <input type="password" size="30" name="nhaplai"><br>
+                                </div>
+
+                            </fieldset>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="btn-submit" style="border: none; background-color: #C8E5F3;" colspan="2" align="center">
+                            <button>Đăng kí</button>
+                            <button>Hủy</button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+
+        <div class="container-block3 col center-x">
+
+            <div class="box1">
+                <p class="box2">SÁCH BÁN NHIỀU</p>
+                <p class="box3">
+                    <ul class="fix-ul best-seller-product">
+                        <li><img src="thuthuat.jpg" style="width:30px;height:45px;"> 
+                        <p>Thủ Thuật Lập Trình Visual Basic 6</p>
+                        </li>
+                        <li><img src="huongdan.jpg" style="width:30px;height:45px;"> 
+                            <p>Hướng Dẫn Tự Học Photoshop CS (Photoshop 6.0)</p>
+                        </li>
+                        <li><img src="canban.jpg" style="width:30px;height:45px;"> 
+                            <p>Căn Bản Về Photoshop CS Tinh Chỉnh Và Xử Lý Màu</p>
+                        </li>
+                        <li><img src="tinhoccoban.jpg" style="width:30px;height:45px;"> 
+                            <p>Tin Học Cơ Bản</p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+    
+            <div class="box1">
+                <p class="box2">LIÊN KẾT WEBSITE</p>
+                <p class="box3" style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                "   >
+                        <select style="margin: 10px;">
+                            <option value="01">Chọn trang liên kết</option>
+                            <option value="02">Tin học cơ bản</option>
+                        </select>
+                </p>
+            </div>
+    
+            <div class="box1">
+                <p class="box2">THÔNG TIN</p>
+                <p class="box3" style="
+                    justify-content: left;
+                    display: flex;
+                ">
+                <td><span style="color:rgb(255, 0, 4);">
+                    Tổng truy cập: 160
+                    <br> Đang online: 3
+                </span></td>
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
